@@ -1,0 +1,163 @@
+ *{
+    margin: 0;
+    color: #d9d9d9;
+    font-family: 'Clash Display', sans-serif;
+    font-family: 'Satoshi', sans-serif;
+}
+
+#logo {
+    margin-left: 75px;
+    margin-top: 50px;
+}
+
+#titulomenusuperior {
+    font-family: 'Clash Display', sans-serif;
+    margin-left: 150px;
+    margin-top: 75px;
+}
+
+#textomenuinferior {
+    font-family: 'Satoshi', sans-serif;
+    margin-left: 150px;
+    margin-top: 35px;
+    padding-bottom: 100px;
+}
+
+#backgroundsuperior {
+    background-image: url("./imagens/backgrondsuperior.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: #d9d9d9;
+}
+
+#ctp {
+    background-color: black;
+    display: grid;
+    grid-auto-flow: column;
+    justify-content: space-around;
+    padding: 30px 0;
+}
+
+.texto-informativo {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    padding: 0 20px;
+}
+
+.icone {
+    width: 40px;
+    height: auto;
+}
+
+#secaovideo {
+    background-color: #181A1B;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+    padding: 40px 0px;
+}
+
+#video {
+    width: 600px;
+    height: 340px;
+}
+
+#titulodovideo {
+    font-family: 'Clash Display', sans-serif;
+    margin-top: -90px;
+    color: #ffffff;
+}
+
+#textovideo {
+    font-family: 'Satoshi', sans-serif;
+    display: flex;
+    align-items: center;
+}
+
+#carrossel {
+    background-color: black;
+    margin-top: 0px;
+    padding: 25px;
+}
+
+#titulocarrossel {
+    color: white;
+    text-align: center;
+    font-size: 32px;
+    margin: 30px;
+}
+
+#div-cards {
+    display: grid;
+    grid-auto-flow: column;
+}
+
+.card {
+    margin-left: 50px;              
+}
+
+#seta1 {
+    display: none;
+}
+
+#Victor {
+    display: none;
+}
+
+#Lucas {
+    display: none;
+}
+
+.seta {
+    margin-top: 55%;
+    cursor: pointer;
+}
+
+.seta:hover{
+    transform:translateY(-7px);
+
+}
+
+#formulario {
+    background-color: #181A1B;
+    text-align: center;
+}
+
+#titulo-formulario {
+    font-family: 'Clash Display', sans-serif;
+    font-size: 35px;
+    color: #ffffff;
+}
+
+input{
+    width: 413px;
+    height: 53px;
+    background-color: #EAECE5; 
+    margin: 15px;
+    border: 0px;
+    border-radius: 5px;
+    padding-left: 10px;
+}
+
+button{
+    background-color: #E03138; 
+    height: 40px;
+    width: 250px;
+    color: #EAECE5;
+    border: 0px;
+    border-radius: 5px;
+    margin-bottom: 50px;
+    cursor:pointer;
+}
+
+button:hover{
+    background-color: #E03138;
+    color: rgb(34, 33, 33);
+    transform: translateY(-7px);
+    box-shadow: 0px 15px 20px;
+    transition-duration: 0.5s;
+
+}

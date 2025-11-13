@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://api.fontshare.com/v2/css?f[]=clash-display@400&f[]=satoshi@400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>FixTrainer</title>
+</head>
+<body>
+    <div id="backgroundsuperior">
+        <a href="https://gustavocampelo.com.br/comunidade-webhub">
+            <img src="./imagens/logo.svg" alt="Logo">
+        </a>
+        <h1 id="titulomenusuperior">
+            Descubra a Ficha de Treino que<br>
+            Mais se Adequa a Você
+        </h1>
+        <p id="textomenuinferior">
+            Monte sua ficha de treino personalizada gratuitamente e<br>
+            descubra os principais fundamentos para alcançar seus<br>
+            resultados de forma rápida e eficiente.
+        </p>
+    </div>
+
+    <div id="ctp">
+        <div class="texto-informativo">
+            <img src="icones/relogio.svg" class="icone" alt="Ícone de relógio">
+            <span>Planos ajustados à sua rotina</span>
+        </div>
+
+        <div class="texto-informativo">
+            <img src="icones/prancha.svg" class="icone" alt="Ícone de prancha">
+            <span>Ficha de treino personalizada</span>
+        </div>
+
+        <div class="texto-informativo">
+            <img src="icones/braco.svg" class="icone" alt="Ícone de braço">
+            <span>Aulas online gravadas</span>
+        </div>
+    </div>
+
+    <!-- Video -->
+    <div id="secaovideo">
+        <iframe id="video" width="897" height="513" src="https://www.youtube.com/embed/ITxGkd9h4n4" title="DNC - A escola inovadora que forma profissionais de alta perfomance" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        <div>
+            <h1 id="titulodovideo">
+                Aprenda com especialistas e<br>
+                transforme seu corpo
+            </h1><br><br>
+            <p id="textovideo">
+                Conheça os métodos de treino mais eficazes e entenda como aplicar<br>
+                as melhores técnicas para evoluir sua performance e alcançar seus<br>
+                objetivos.<br><br>
+                Conquiste sua ficha de treino personalizada e siga um plano prático<br>
+                para aplicar todo o conhecimento na sua rotina de treinos.
+            </p>
+        </div>
+    </div>
+
+    <!-- Carrossel -->
+    <div id="carrossel">
+        <h1 id="titulocarrossel">Mais de 500 assinantes já iniciaram<br>seus cronogramas</h1>
+        <div id="div-cards">
+            <img id="seta1" onclick="RolarEsquerda ()" class="seta" src="./icones/seta-esquerda.svg" alt="Seta esquerda">
+            <img id="Bruno" class="card" src="cards/bruno.svg" alt="Bruno">
+            <img id="Felipe" class="card" src="cards/felipe.svg" alt="Felipe">
+            <img id="Gustavo" class="card" src="cards/gustavo.svg" alt="Gustavo">
+            <img id="Victor" class="card" src="cards/Victor.svg" alt="Victor">
+            <img id="Lucas" class="card" src="cards/lucas.svg" alt="Lucas">
+            <img id="seta2" onclick="RolarDireita ()" class="seta" src="./icones/seta-direita.svg" alt="Seta direita">
+        </div>
+
+    </div>
+    <div id="formulario">
+        <h1 id="titulo-formulario" > Comece agora mesmo e dê o próximo passo na sua evolução física </h1>
+        <form action="https://api.sheetmonkey.io/form/uTq4KFsN3z2o7qorxyCUt5" method="post">
+            <input type="text" placeholder="Nome" name="Name" required> <br>
+            <input type="email" placeholder="Email" name="Email" required> <br>
+            <input type="number" placeholder="Telefone"> <br>
+            <input type="hidden" name="Created" value="x-sheetmonkey-current-date-time" />
+            <button type="submit">Garanta Sua Vaga</button>
+        </form>
+    </div>
+    <script src="index.html.js"></script>
+</body>
+</html>
